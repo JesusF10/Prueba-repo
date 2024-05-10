@@ -11,3 +11,12 @@ def draw_triangle(n: int) -> list:
             new_row.append(row[i - 1][j - 2] + row[i - 1][j - 1])
         row.append(new_row)
     return row
+
+
+def main():
+    draw_triangle()
+
+
+if __name__ == "__main__":
+    main()
+
