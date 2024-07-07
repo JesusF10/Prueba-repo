@@ -18,5 +18,6 @@ def main():
 
 
 if __name__ == "__main__":
+    print("Dibujando el triangulo de Pascal")
     main()
 
